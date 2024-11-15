@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Teras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    
+    <!-- <header>
+        <div class="navbar">
+            <div class="title">Bram Phone</div>
+            <div class="menu" id="menu">
+                <a href="#welcome">Home</a>
+                <a href="#layanan">About</a>
+                <a href="#kontak">Contact</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+        </div>
+    </header> -->
+
+
+    <header>
+        <h1>Kopi konco ndes</h1>
+        <nav>
+            <section id="menu-icon" class="menu-icon">
+                <i class="ph ph-list"></i>
+            </section>
+            <ul id="menu-list" class="hidden">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#layanan">About</a></li>
+                <li><a href="#kontak">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <article>
+            <div class="imghome">
+                <img src="logo baru.webp" alt="logo" width="200px", height="200px">
+            </div>
+           <h3>Selamat Datang di Website Kopi Konco Ndes</h3>
+            <p>
+               Jangan lupa nikmati kopi konco ndes
+            </p>
+        </article>
+    </section>
+
+
+    <!-- Layanan Section with Table -->
+    <section id="layanan">
+        <h2>Layanan Kami</h2>
+        <p>Kami menyediakan berbagai layanan untuk memenuhi kebutuhan pecinta kopi:</p>
+        <table class="layanan-table">
+            <thead>
+                <tr>
+                    <th>Layanan</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pelatihan Barista</td>
+                    <td>Pelatihan profesional untuk menjadi barista handal.</td>
+                </tr>
+                <tr>
+                    <td>Konsultasi Alat Kopi</td>
+                    <td>Penyediaan dan konsultasi alat kopi terbaik.</td>
+                </tr>
+                <tr>
+                    <td>Event & Katering</td>
+                    <td>Pelayanan kopi untuk acara spesial Anda.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Produk Section with enhanced styling -->
+    <section class="produk" id="produk">
+        <h2>Produk Kami</h2>
+        <div class="produk-list">
+            <div class="produk-item">
+                <img src="kopi1.jpg" alt="Coffee Equipment" class="produk-img">
+                <h3>Specialty Coffee Beans</h3>
+                <p>Biji kopi pilihan dari petani lokal.</p>
+            </div>
+            <div class="produk-item">
+                <img src="kopi2.jpg" alt="Coffee Equipment" class="produk-img">
+                <h3>Coffee Equipment</h3>
+                <p>Peralatan kopi untuk pecinta kopi sejati.</p>
+            </div>
+            <div class="produk-item">
+                <img src="kopi3.jpeg" alt="Coffee Equipment" class="produk-img">
+                <h3>Coffee Equipment</h3>
+                <p>Peralatan kopi untuk pecinta kopi sejati.</p>
+            </div>
+            <div class="produk-item">
+                <img src="kebab.jpeg" alt="Coffee Equipment" class="produk-img">
+                <h3>kebab aji</h3>
+                <p>Peralatan kopi untuk pecinta kopi sejati.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Kopi Section with grid layout -->
+    <section class="menu" id="menu">
+        <h2>Menu Kopi</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>Rp 15,000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Americano</h3>
+                <p>Rp 18,000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>Rp 20,000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>Rp 22,000</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <form action="kontak kami">
+        <fieldset>
+            <legend>KONTAK KAMI</legend>
+            <label for="">Nama</label>
+            <input type="text" placeholder="masukan nama...">
+            <br>
+            <label for="">Email</label>
+            <input type="email" placeholder="example@gmail.com">
+            <br>
+            <label for="">Pesan</label>
+            <textarea type="pesan" placeholder="masukan pesan anda"></textarea>
+            <br>
+            <button type="submit">Kirim</button>
+        </fieldset>
+    </form>
+
+    <!-- Kontak Section -->
+    <section id="kontak">
+        <p>Hubungi kami di <strong>kopiteras@example.com</strong> atau kunjungi langsung di teras kami!</p>
+        <p>Alamat: Jalan Kopi konco ndes No. 7, Kota Kafe</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Kopi Konco Ndes | <a href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i
+            class="fa-brands fa-youtube"></i></a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

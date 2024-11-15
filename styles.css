@@ -1,0 +1,315 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f3ee;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between; /* Posisi kiri dan kanan */
+    align-items: center;
+    padding: 20px;
+    background-color: #d4b592;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header.logo {
+    background: brown;
+    justify-content: space-between;
+    display: flex;
+    padding: a;
+    align-items: flex-end;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.imghome{
+    padding-top: 90px;
+}
+
+/* header.logo img {
+    width: auto;
+    height: auto;
+    margin-bottom: 1rem;
+} */
+
+/* header.logo h1 {
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+} */
+/* 
+header.logo p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-style: italic;
+} */
+
+/* .menu-icon {
+    display: flex;
+    margin:0;
+    justify-content: flex-end;
+    } */
+
+
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-bottom: -1px;
+
+  }
+li {
+  font-size: large;
+  padding: right -1px;
+}
+  
+li a {
+  color: #ffffff;
+  font-size: medium;
+  padding: 5px;
+  text-decoration: none;
+}
+  
+ul li a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0px 5px 5px;
+  
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #d4b592;
+}
+
+
+/* Section styling */
+section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Layanan table styling */
+.layanan-table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.layanan-table th,
+.layanan-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+}
+
+.layanan-table th {
+    background-color: #8d674a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.layanan-table td {
+    background-color: #fff;
+}
+
+/* Produk section styling */
+.produk-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.produk-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+
+.produk-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.produk-item h3 {
+    color: #8d674a;
+    font-size: 1.2rem;
+}
+
+.produk-item p {
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+/* Menu styling */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.menu-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 1.3rem;
+    color: #8d674a;
+}
+
+.menu-item p {
+    color: #4a2f1e;
+    font-weight: bold;
+}
+
+/* Kontak Kami Form */
+form {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+form fieldset {
+    border: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+form legend {
+    font-size: 1.5em;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: brown;
+}
+
+/* Kontak styling */
+.kontak p {
+    font-size: 1.1rem;
+    color: #4a2f1e;
+}
+
+/* Footer styling */
+footer.footer {
+    background: #8d674a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+    header.logo h1 {
+        font-size: 3rem;
+    }
+
+
+    .navbar {
+        gap: 2rem;
+    }
+
+    .layanan-table th, .layanan-table td {
+        padding: 1rem;
+    }
+}
+
+@media (max-width:555px){
+    .menu-icon{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav ul.hidden{
+        display: none;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
